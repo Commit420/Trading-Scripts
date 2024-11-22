@@ -1,4 +1,6 @@
 //@version=5
+// Pine-Script by Commit420 on Github <3
+
 indicator("Moving Average Crossover Strategy", shorttitle="MA Crossover", overlay=true)
 
 // Input für die gleitenden Durchschnitte
@@ -23,7 +25,7 @@ plotshape(shortCondition, title="Sell Signal", location=location.abovebar, color
 
 // Strategiebedingungen
 if (longCondition)
-    label.new(bar_index, low, "Buy", style=label.style_label_up, color=color.green, textcolor=color.white)
+    label.new(bar_index, low, "Kaufen", style=label.style_label_up, color=color.green, textcolor=color.white)
 
 if (shortCondition)
-    label.new(bar_index, high, "Sell", style=label.style_label_down, color=color.red, textcolor=color.white)
+    label.new(bar_index, high, "Verkaufen", style=label.style_label_down, color=color.red, textcolor=color.white)
