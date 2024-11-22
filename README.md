@@ -6,10 +6,10 @@ Willkommen in der Sammlung von **Pine-Skripten** für TradingView, die speziell 
 
 ## 📊 Verfügbare Skripte
 
-### 1. **Moving Average Crossover Strategie**  
+### 1. **Moving Average Crossover Strategie (Script01.pine)**  
 Eine einfache und effektive Strategie, die auf dem **Moving Average Crossover** basiert, um potenzielle **Kauf- oder Verkaufssignale** zu generieren.
 
-### 2. **Kauf-/Verkauf-Volumen Tracker**  
+### 2. **Kauf-/Verkauf-Volumen Tracker (Script02.pine)**  
 Verfolgt das **Kauf- und Verkaufvolumen** basierend auf den Preisbewegungen. Dies hilft, das **Marktsentiment** zu visualisieren und zu verstehen.
 
 #### Funktionen:
