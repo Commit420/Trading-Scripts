@@ -1,57 +1,54 @@
-# Trading-Scripts 📈  
-Willkommen zu **Trading-Scripts**, einer Sammlung einfacher und effektiver Pine Scripts, die für den Einsatz in TradingView entwickelt wurden. Diese Scripts sind ideal für den Einstieg in den algorithmischen Handel oder um bestehende Strategien zu erweitern.
+# Trading-Skripte für TradingView 🚀
+
+Willkommen in der Sammlung von **Pine-Skripten** für TradingView, die speziell für den algorithmischen Handel und die technische Analyse entwickelt wurden. Diese Skripte bieten wertvolle Einblicke in Markttrends und Volumendaten, um Händlern bei der Entscheidungsfindung zu helfen.
 
 ---
 
-## Inhalt 🗂️
+## 📊 Verfügbare Skripte
 
-### 1. Script01.pine  
-**Titel**: Moving Average Crossover Strategy  
-**Beschreibung**:  
-Dieses Pine Script implementiert eine einfache, aber effektive Strategie, die auf dem Moving Average Crossover basiert. Es erkennt Kauf- und Verkaufs-Signale basierend auf dem Schnittpunkt eines schnellen und eines langsamen gleitenden Durchschnitts. Perfekt für Anfänger, um Trends zu handeln und Marktbewegungen zu analysieren.
+### 1. **Moving Average Crossover Strategie**  
+Eine einfache und effektive Strategie, die auf dem **Moving Average Crossover** basiert, um potenzielle **Kauf- oder Verkaufssignale** zu generieren.
 
----
+### 2. **Kauf-/Verkauf-Volumen Tracker**  
+Verfolgt das **Kauf- und Verkaufvolumen** basierend auf den Preisbewegungen. Dies hilft, das **Marktsentiment** zu visualisieren und zu verstehen.
 
-## Installation 🚀
+#### Funktionen:
+- **Histogramme**: Zeigt Kauf- und Verkaufvolumen grafisch an.
+- **Gleitender Durchschnitt**: Verwendet einen **20-Perioden-MA**, um Volumendaten zu glätten.
+- **Labels**: Zeigt das gesamte Kauf- und Verkaufvolumen über den Zeitraum.
 
-1. Öffne [TradingView](https://www.tradingview.com/).
-2. Gehe zu **Pine Script Editor**.
-3. Kopiere den gewünschten Code aus der Datei (z. B. `Script01.pine`) und füge ihn in den Editor ein.
-4. Klicke auf **Add to Chart**, um das Script anzuwenden.
-
----
-
-## Vorschau 🎨
-
-Hier siehst du, wie die Signale auf dem Chart dargestellt werden:  
-- **Kauf-Signale**: Grüne Pfeile nach oben.  
-- **Verkauf-Signale**: Rote Pfeile nach unten.  
-
-Die gleitenden Durchschnitte werden farblich hervorgehoben:  
-- **Blau**: Schneller gleitender Durchschnitt (Short-Term Trend).  
-- **Rot**: Langsamer gleitender Durchschnitt (Long-Term Trend).
+### 🏅 Wichtige Merkmale:
+- **Kaufvolumen**: Berechnet bei einer grünen Kerze (Schlusskurs > Eröffnungskurs).
+- **Verkaufvolumen**: Berechnet bei einer roten Kerze (Schlusskurs < Eröffnungskurs).
+- **Rollende Summe**: Zeigt die kumulierte Summe des Volumens über die letzten **20 Kerzen**.
 
 ---
 
-## Warnung ⚠️  
+## 🚀 Nutzung
 
-> Diese Pine Scripts dienen ausschließlich zu **Bildungszwecken** und sind keine Garantie für finanzielle Gewinne oder Sicherheit.  
-> **Handel an Finanzmärkten birgt Risiken**, einschließlich des Verlusts deines Kapitals.  
-> Teste jedes Script gründlich in einer Simulationsumgebung oder mit einem Demokonto, bevor du echtes Kapital einsetzt.
-
----
-
-## Lizenz 📜  
-
-Dieses Projekt steht unter der [MIT-Lizenz](LICENSE). Du darfst den Code frei verwenden, anpassen und teilen, jedoch ohne jegliche Garantie.  
+1. Kopiere das Skript in den **Pine Script Editor** von TradingView.
+2. Wende es auf deinem **Chart** an.
+3. Passe die Einstellungen für **Perioden** oder **Visualisierung** nach deinen Bedürfnissen an.
 
 ---
 
-## Feedback und Mitwirkung 💡  
+## ⚠️ Wichtiger Haftungsausschluss
 
-Hast du Verbesserungsvorschläge oder möchtest deine eigenen Scripts teilen?  
-Erstelle ein **Issue** oder einen **Pull Request**! Wir freuen uns über deine Mitwirkung.  
+**Achtung: Diese Skripte bieten keine 100%ige finanzielle Sicherheit!**  
+Diese Skripte sind zu **Bildungszwecken** und zur **Marktanalyse** gedacht. Sie garantieren **keine Gewinne** und sind nicht als finanzielle Beratung zu verstehen. Der Handel birgt immer **Risiken**, und **vergangene Ergebnisse** sind keine Garantie für zukünftige Erfolge. **Teste Strategien immer zuerst in einer Paper-Trading-Umgebung**, bevor du sie in realen Märkten anwendest!
 
 ---
 
-**Viel Erfolg und Happy Trading!** 🚀  
+## 🤝 Beiträge
+
+Fühle dich frei, dieses Repository zu **forken**, **Verbesserungsvorschläge** zu machen oder **neue Skripte beizutragen**! Zusammen können wir die Skripte weiter verbessern und verfeinern.
+
+---
+
+## 📝 Lizenz
+
+Dieses Projekt ist unter der **MIT-Lizenz** lizenziert – siehe die [LICENSE](LICENSE)-Datei für Details.
+
+---
+
+✨ **Viel Erfolg beim Handeln!** ✨
